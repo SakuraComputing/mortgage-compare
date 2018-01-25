@@ -1,0 +1,45 @@
+{
+  "quotes":
+  [
+    {
+      "id": 6,
+      "fixed": 2,
+      "provider": "santander",
+      "term": 14,
+      "monthlyPayment": 1976,
+      "mortgageAmount": 233800,
+      "initialContribution": 25000,
+      "mortgageTotal": 251000
+    },
+    {
+      "id": 7,
+      "fixed": 5,
+      "provider": "halifax",
+      "term": 14,
+      "monthlyPayment": 1976,
+      "mortgageAmount": 233800,
+      "initialContribution": 25000,
+      "mortgageTotal": 251000
+    },
+    {
+      "id": 8,
+      "fixed": 5,
+      "provider": "halifax",
+      "term": 14,
+      "monthlyPayment": 1976,
+      "mortgageAmount": 233800,
+      "initialContribution": 26000,
+      "mortgageTotal": 251000
+    },
+    {
+      "id": 9,
+      "fixed": 2,
+      "provider": "santander",
+      "term": 14,
+      "monthlyPayment": 1976,
+      "mortgageAmount": 233800,
+      "initialContribution": 27000,
+      "mortgageTotal": 257000
+    }
+  ]
+}

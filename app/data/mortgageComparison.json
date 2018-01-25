@@ -1,0 +1,54 @@
+{
+  "comparisons": [
+    {
+      "id": 10,
+      "fixed": 5,
+      "provider": "nationwide",
+      "term": 14,
+      "monthlyPayment": 2011,
+      "mortgageAmount": 233800,
+      "initialContribution": 30000,
+      "mortgageTotal": 259000
+    },
+    {
+      "id": 11,
+      "fixed": 5,
+      "provider": "nationwide",
+      "term": 14,
+      "monthlyPayment": 2011,
+      "mortgageAmount": 233800,
+      "initialContribution": 30000,
+      "mortgageTotal": 259000
+    },
+    {
+      "id": 12,
+      "fixed": 5,
+      "provider": "nationwide",
+      "term": 14,
+      "monthlyPayment": 2035,
+      "mortgageAmount": 233800,
+      "initialContribution": 30000,
+      "mortgageTotal": 262000
+    },
+    {
+      "id": 13,
+      "fixed": 2,
+      "provider": "nationwide",
+      "term": 14,
+      "monthlyPayment": 2011,
+      "mortgageAmount": 233800,
+      "initialContribution": 30000,
+      "mortgageTotal": 259000
+    },
+    {
+      "id": 14,
+      "fixed": 2,
+      "provider": "nationwide",
+      "term": 14,
+      "monthlyPayment": 2011,
+      "mortgageAmount": 233800,
+      "initialContribution": 30000,
+      "mortgageTotal": 259000
+    }
+  ]
+}

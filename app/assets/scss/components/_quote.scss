@@ -1,0 +1,86 @@
+//Could break the colours off into another file
+// More inheritance required
+
+.quote-container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin-left: 2%;
+  padding-left: 2%;
+}
+
+.quote-body {
+  border-radius: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-style: solid;
+  border-color: gray;
+}
+
+.quote-header-2 {
+  color: white;
+  border-radius: 8px 8px 0 0;
+  background-color: skyblue;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: -webkit-center;
+}
+
+.quote-header-5 {
+  color: white;
+  border-radius: 8px 8px 0 0;
+  background-color: orange;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: -webkit-center;
+}
+
+.quote-list {
+  padding-top: 8%;
+  padding-bottom: 4%;
+}
+
+.quote-list__item {
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.quote-list__item__amount {
+  font-weight: bold;
+  font-size: 1.0em;
+}
+
+.quote-warning {
+  font-size: .2em;
+}
+
+.quote-main {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.quote-top-summary {
+  padding-top: 10%;
+}
+
+.quote-top-summary__text {
+  font-size: .8em;
+}
+
+.quote-top-summary__total {
+  font-size: 1.8em;
+}
+
+.quote-top-summary__logo {
+  margin-right: 0;
+}
+
+.quote-body:nth-child(4) {
+  opacity: .5;
+
+}
+

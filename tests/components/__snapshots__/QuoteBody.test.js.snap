@@ -1,0 +1,2588 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote Body should render correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuoteBody
+    quotes={
+      Object {
+        "fixed": 5,
+        "id": 2,
+        "initialContribution": 25000,
+        "monthlyPayment": 1976,
+        "mortgageAmount": 233800,
+        "mortgageTotal": 251000,
+        "provider": "Halifax",
+        "term": 14,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        false,
+        false,
+        <div
+          className="quote-main"
+        >
+          <div>
+            <button
+              align="right"
+              className="quote-button-round quote-button-add-remove"
+              to="/comparisons"
+            >
+              <NavLink
+                activeClassName="is-active"
+                ariaCurrent="true"
+                to="/comparisons"
+              >
+                +
+              </NavLink>
+            </button>
+          </div>
+          <div>
+            <button
+              className=" quote-button-round quote-button-favourite"
+              onClick={[Function]}
+            >
+              ♡
+            </button>
+          </div>
+          <div
+            className="quote-top-summary"
+          >
+            <div
+              className="quote-top-summary__text"
+            >
+              We believe you can afford a property worth:
+            </div>
+            <div
+              className="quote-top-summary__logo"
+            />
+            <div
+              className="quote-top-summary__total"
+            >
+              <NumberFormat
+                allowNegative={true}
+                decimalSeparator="."
+                displayType="text"
+                fixedDecimalScale={false}
+                getInputRef={[Function]}
+                isAllowed={[Function]}
+                isNumericString={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseUp={[Function]}
+                onValueChange={[Function]}
+                prefix="£"
+                suffix=""
+                thousandSeparator={true}
+                type="text"
+                value={undefined}
+              />
+            </div>
+          </div>
+          <div
+            className="quote-list"
+          >
+            <div
+              className="quote-list__item"
+            >
+              <span>
+                Monthly Payment
+              </span>
+              <span
+                className="quote-list__item__amount"
+              >
+                <NumberFormat
+                  allowNegative={true}
+                  decimalSeparator="."
+                  displayType="text"
+                  fixedDecimalScale={false}
+                  getInputRef={[Function]}
+                  isAllowed={[Function]}
+                  isNumericString={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseUp={[Function]}
+                  onValueChange={[Function]}
+                  prefix="£"
+                  suffix=""
+                  thousandSeparator={true}
+                  type="text"
+                  value={undefined}
+                />
+              </span>
+            </div>
+            <div
+              className="quote-list__item"
+            >
+              <div>
+                Term in years
+              </div>
+              <div
+                className="quote-list__item__amount"
+              />
+            </div>
+            <div
+              className="quote-list__item"
+            >
+              <div>
+                Mortgage Amount
+              </div>
+              <div
+                className="quote-list__item__amount"
+              >
+                <NumberFormat
+                  allowNegative={true}
+                  decimalSeparator="."
+                  displayType="text"
+                  fixedDecimalScale={false}
+                  getInputRef={[Function]}
+                  isAllowed={[Function]}
+                  isNumericString={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseUp={[Function]}
+                  onValueChange={[Function]}
+                  prefix="£"
+                  suffix=""
+                  thousandSeparator={true}
+                  type="text"
+                  value={undefined}
+                />
+              </div>
+            </div>
+            <div
+              className="quote-list__item"
+            >
+              <div>
+                Contribtion
+              </div>
+              <div
+                className="quote-list__item__amount"
+              >
+                <NumberFormat
+                  allowNegative={true}
+                  decimalSeparator="."
+                  displayType="text"
+                  fixedDecimalScale={false}
+                  getInputRef={[Function]}
+                  isAllowed={[Function]}
+                  isNumericString={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseUp={[Function]}
+                  onValueChange={[Function]}
+                  prefix="£"
+                  suffix=""
+                  thousandSeparator={true}
+                  type="text"
+                  value={undefined}
+                />
+              </div>
+            </div>
+          </div>
+          <p>
+            The above figures are based on a
+            <span>
+               
+              <NumberFormat
+                allowNegative={true}
+                decimalSeparator="."
+                displayType="text"
+                fixedDecimalScale={false}
+                getInputRef={[Function]}
+                isAllowed={[Function]}
+                isNumericString={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseUp={[Function]}
+                onValueChange={[Function]}
+                prefix="£"
+                suffix=""
+                thousandSeparator={true}
+                type="text"
+                value={undefined}
+              />
+               
+            </span>
+            mortgage and a fixed rate of 3.79%. This could rise to a variable rate (currently 3.74%) if you forget to switch, but we will keep an eye on it for you. If you kept this mortgage for the full 
+             year term, the overall cost (including interest and fees) would be 3.9% APRC
+          </p>
+          <p />
+          <p>
+            Remember as well as your deposit and stamp duty, you'll need about £1,671 to cover the additional cost of buying a home.
+          </p>
+        </div>,
+        false,
+        false,
+      ],
+      "className": "quote-body",
+    },
+    "ref": null,
+    "rendered": Array [
+      false,
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div>
+              <button
+                align="right"
+                className="quote-button-round quote-button-add-remove"
+                to="/comparisons"
+              >
+                <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/comparisons"
+                >
+                  +
+                </NavLink>
+              </button>
+            </div>,
+            <div>
+              <button
+                className=" quote-button-round quote-button-favourite"
+                onClick={[Function]}
+              >
+                ♡
+              </button>
+            </div>,
+            <div
+              className="quote-top-summary"
+            >
+              <div
+                className="quote-top-summary__text"
+              >
+                We believe you can afford a property worth:
+              </div>
+              <div
+                className="quote-top-summary__logo"
+              />
+              <div
+                className="quote-top-summary__total"
+              >
+                <NumberFormat
+                  allowNegative={true}
+                  decimalSeparator="."
+                  displayType="text"
+                  fixedDecimalScale={false}
+                  getInputRef={[Function]}
+                  isAllowed={[Function]}
+                  isNumericString={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseUp={[Function]}
+                  onValueChange={[Function]}
+                  prefix="£"
+                  suffix=""
+                  thousandSeparator={true}
+                  type="text"
+                  value={undefined}
+                />
+              </div>
+            </div>,
+            <div
+              className="quote-list"
+            >
+              <div
+                className="quote-list__item"
+              >
+                <span>
+                  Monthly Payment
+                </span>
+                <span
+                  className="quote-list__item__amount"
+                >
+                  <NumberFormat
+                    allowNegative={true}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={false}
+                    getInputRef={[Function]}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix="£"
+                    suffix=""
+                    thousandSeparator={true}
+                    type="text"
+                    value={undefined}
+                  />
+                </span>
+              </div>
+              <div
+                className="quote-list__item"
+              >
+                <div>
+                  Term in years
+                </div>
+                <div
+                  className="quote-list__item__amount"
+                />
+              </div>
+              <div
+                className="quote-list__item"
+              >
+                <div>
+                  Mortgage Amount
+                </div>
+                <div
+                  className="quote-list__item__amount"
+                >
+                  <NumberFormat
+                    allowNegative={true}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={false}
+                    getInputRef={[Function]}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix="£"
+                    suffix=""
+                    thousandSeparator={true}
+                    type="text"
+                    value={undefined}
+                  />
+                </div>
+              </div>
+              <div
+                className="quote-list__item"
+              >
+                <div>
+                  Contribtion
+                </div>
+                <div
+                  className="quote-list__item__amount"
+                >
+                  <NumberFormat
+                    allowNegative={true}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={false}
+                    getInputRef={[Function]}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix="£"
+                    suffix=""
+                    thousandSeparator={true}
+                    type="text"
+                    value={undefined}
+                  />
+                </div>
+              </div>
+            </div>,
+            <p>
+              The above figures are based on a
+              <span>
+                 
+                <NumberFormat
+                  allowNegative={true}
+                  decimalSeparator="."
+                  displayType="text"
+                  fixedDecimalScale={false}
+                  getInputRef={[Function]}
+                  isAllowed={[Function]}
+                  isNumericString={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseUp={[Function]}
+                  onValueChange={[Function]}
+                  prefix="£"
+                  suffix=""
+                  thousandSeparator={true}
+                  type="text"
+                  value={undefined}
+                />
+                 
+              </span>
+              mortgage and a fixed rate of 3.79%. This could rise to a variable rate (currently 3.74%) if you forget to switch, but we will keep an eye on it for you. If you kept this mortgage for the full 
+               year term, the overall cost (including interest and fees) would be 3.9% APRC
+            </p>,
+            <p />,
+            <p>
+              Remember as well as your deposit and stamp duty, you'll need about £1,671 to cover the additional cost of buying a home.
+            </p>,
+          ],
+          "className": "quote-main",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                align="right"
+                className="quote-button-round quote-button-add-remove"
+                to="/comparisons"
+              >
+                <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/comparisons"
+                >
+                  +
+                </NavLink>
+              </button>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "align": "right",
+                "children": <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/comparisons"
+                >
+                  +
+                </NavLink>,
+                "className": "quote-button-round quote-button-add-remove",
+                "to": "/comparisons",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "ariaCurrent": "true",
+                  "children": "+",
+                  "to": "/comparisons",
+                },
+                "ref": null,
+                "rendered": "+",
+                "type": [Function],
+              },
+              "type": "button",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className=" quote-button-round quote-button-favourite"
+                onClick={[Function]}
+              >
+                ♡
+              </button>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "♡",
+                "className": " quote-button-round quote-button-favourite",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "♡",
+              "type": "button",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="quote-top-summary__text"
+                >
+                  We believe you can afford a property worth:
+                </div>,
+                <div
+                  className="quote-top-summary__logo"
+                />,
+                <div
+                  className="quote-top-summary__total"
+                >
+                  <NumberFormat
+                    allowNegative={true}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={false}
+                    getInputRef={[Function]}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix="£"
+                    suffix=""
+                    thousandSeparator={true}
+                    type="text"
+                    value={undefined}
+                  />
+                </div>,
+              ],
+              "className": "quote-top-summary",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "We believe you can afford a property worth:",
+                  "className": "quote-top-summary__text",
+                },
+                "ref": null,
+                "rendered": "We believe you can afford a property worth:",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    false,
+                    false,
+                  ],
+                  "className": "quote-top-summary__logo",
+                },
+                "ref": null,
+                "rendered": Array [
+                  false,
+                  false,
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <NumberFormat
+                    allowNegative={true}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={false}
+                    getInputRef={[Function]}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix="£"
+                    suffix=""
+                    thousandSeparator={true}
+                    type="text"
+                    value={undefined}
+                  />,
+                  "className": "quote-top-summary__total",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "allowNegative": true,
+                    "decimalSeparator": ".",
+                    "displayType": "text",
+                    "fixedDecimalScale": false,
+                    "getInputRef": [Function],
+                    "isAllowed": [Function],
+                    "isNumericString": false,
+                    "onBlur": [Function],
+                    "onChange": [Function],
+                    "onFocus": [Function],
+                    "onKeyDown": [Function],
+                    "onMouseUp": [Function],
+                    "onValueChange": [Function],
+                    "prefix": "£",
+                    "suffix": "",
+                    "thousandSeparator": true,
+                    "type": "text",
+                    "value": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="quote-list__item"
+                >
+                  <span>
+                    Monthly Payment
+                  </span>
+                  <span
+                    className="quote-list__item__amount"
+                  >
+                    <NumberFormat
+                      allowNegative={true}
+                      decimalSeparator="."
+                      displayType="text"
+                      fixedDecimalScale={false}
+                      getInputRef={[Function]}
+                      isAllowed={[Function]}
+                      isNumericString={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseUp={[Function]}
+                      onValueChange={[Function]}
+                      prefix="£"
+                      suffix=""
+                      thousandSeparator={true}
+                      type="text"
+                      value={undefined}
+                    />
+                  </span>
+                </div>,
+                <div
+                  className="quote-list__item"
+                >
+                  <div>
+                    Term in years
+                  </div>
+                  <div
+                    className="quote-list__item__amount"
+                  />
+                </div>,
+                <div
+                  className="quote-list__item"
+                >
+                  <div>
+                    Mortgage Amount
+                  </div>
+                  <div
+                    className="quote-list__item__amount"
+                  >
+                    <NumberFormat
+                      allowNegative={true}
+                      decimalSeparator="."
+                      displayType="text"
+                      fixedDecimalScale={false}
+                      getInputRef={[Function]}
+                      isAllowed={[Function]}
+                      isNumericString={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseUp={[Function]}
+                      onValueChange={[Function]}
+                      prefix="£"
+                      suffix=""
+                      thousandSeparator={true}
+                      type="text"
+                      value={undefined}
+                    />
+                  </div>
+                </div>,
+                <div
+                  className="quote-list__item"
+                >
+                  <div>
+                    Contribtion
+                  </div>
+                  <div
+                    className="quote-list__item__amount"
+                  >
+                    <NumberFormat
+                      allowNegative={true}
+                      decimalSeparator="."
+                      displayType="text"
+                      fixedDecimalScale={false}
+                      getInputRef={[Function]}
+                      isAllowed={[Function]}
+                      isNumericString={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseUp={[Function]}
+                      onValueChange={[Function]}
+                      prefix="£"
+                      suffix=""
+                      thousandSeparator={true}
+                      type="text"
+                      value={undefined}
+                    />
+                  </div>
+                </div>,
+              ],
+              "className": "quote-list",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <span>
+                      Monthly Payment
+                    </span>,
+                    <span
+                      className="quote-list__item__amount"
+                    >
+                      <NumberFormat
+                        allowNegative={true}
+                        decimalSeparator="."
+                        displayType="text"
+                        fixedDecimalScale={false}
+                        getInputRef={[Function]}
+                        isAllowed={[Function]}
+                        isNumericString={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onMouseUp={[Function]}
+                        onValueChange={[Function]}
+                        prefix="£"
+                        suffix=""
+                        thousandSeparator={true}
+                        type="text"
+                        value={undefined}
+                      />
+                    </span>,
+                  ],
+                  "className": "quote-list__item",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Monthly Payment",
+                    },
+                    "ref": null,
+                    "rendered": "Monthly Payment",
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <NumberFormat
+                        allowNegative={true}
+                        decimalSeparator="."
+                        displayType="text"
+                        fixedDecimalScale={false}
+                        getInputRef={[Function]}
+                        isAllowed={[Function]}
+                        isNumericString={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onMouseUp={[Function]}
+                        onValueChange={[Function]}
+                        prefix="£"
+                        suffix=""
+                        thousandSeparator={true}
+                        type="text"
+                        value={undefined}
+                      />,
+                      "className": "quote-list__item__amount",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "allowNegative": true,
+                        "decimalSeparator": ".",
+                        "displayType": "text",
+                        "fixedDecimalScale": false,
+                        "getInputRef": [Function],
+                        "isAllowed": [Function],
+                        "isNumericString": false,
+                        "onBlur": [Function],
+                        "onChange": [Function],
+                        "onFocus": [Function],
+                        "onKeyDown": [Function],
+                        "onMouseUp": [Function],
+                        "onValueChange": [Function],
+                        "prefix": "£",
+                        "suffix": "",
+                        "thousandSeparator": true,
+                        "type": "text",
+                        "value": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "span",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div>
+                      Term in years
+                    </div>,
+                    <div
+                      className="quote-list__item__amount"
+                    />,
+                  ],
+                  "className": "quote-list__item",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Term in years",
+                    },
+                    "ref": null,
+                    "rendered": "Term in years",
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": undefined,
+                      "className": "quote-list__item__amount",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div>
+                      Mortgage Amount
+                    </div>,
+                    <div
+                      className="quote-list__item__amount"
+                    >
+                      <NumberFormat
+                        allowNegative={true}
+                        decimalSeparator="."
+                        displayType="text"
+                        fixedDecimalScale={false}
+                        getInputRef={[Function]}
+                        isAllowed={[Function]}
+                        isNumericString={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onMouseUp={[Function]}
+                        onValueChange={[Function]}
+                        prefix="£"
+                        suffix=""
+                        thousandSeparator={true}
+                        type="text"
+                        value={undefined}
+                      />
+                    </div>,
+                  ],
+                  "className": "quote-list__item",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Mortgage Amount",
+                    },
+                    "ref": null,
+                    "rendered": "Mortgage Amount",
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <NumberFormat
+                        allowNegative={true}
+                        decimalSeparator="."
+                        displayType="text"
+                        fixedDecimalScale={false}
+                        getInputRef={[Function]}
+                        isAllowed={[Function]}
+                        isNumericString={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onMouseUp={[Function]}
+                        onValueChange={[Function]}
+                        prefix="£"
+                        suffix=""
+                        thousandSeparator={true}
+                        type="text"
+                        value={undefined}
+                      />,
+                      "className": "quote-list__item__amount",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "allowNegative": true,
+                        "decimalSeparator": ".",
+                        "displayType": "text",
+                        "fixedDecimalScale": false,
+                        "getInputRef": [Function],
+                        "isAllowed": [Function],
+                        "isNumericString": false,
+                        "onBlur": [Function],
+                        "onChange": [Function],
+                        "onFocus": [Function],
+                        "onKeyDown": [Function],
+                        "onMouseUp": [Function],
+                        "onValueChange": [Function],
+                        "prefix": "£",
+                        "suffix": "",
+                        "thousandSeparator": true,
+                        "type": "text",
+                        "value": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div>
+                      Contribtion
+                    </div>,
+                    <div
+                      className="quote-list__item__amount"
+                    >
+                      <NumberFormat
+                        allowNegative={true}
+                        decimalSeparator="."
+                        displayType="text"
+                        fixedDecimalScale={false}
+                        getInputRef={[Function]}
+                        isAllowed={[Function]}
+                        isNumericString={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onMouseUp={[Function]}
+                        onValueChange={[Function]}
+                        prefix="£"
+                        suffix=""
+                        thousandSeparator={true}
+                        type="text"
+                        value={undefined}
+                      />
+                    </div>,
+                  ],
+                  "className": "quote-list__item",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Contribtion",
+                    },
+                    "ref": null,
+                    "rendered": "Contribtion",
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <NumberFormat
+                        allowNegative={true}
+                        decimalSeparator="."
+                        displayType="text"
+                        fixedDecimalScale={false}
+                        getInputRef={[Function]}
+                        isAllowed={[Function]}
+                        isNumericString={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onMouseUp={[Function]}
+                        onValueChange={[Function]}
+                        prefix="£"
+                        suffix=""
+                        thousandSeparator={true}
+                        type="text"
+                        value={undefined}
+                      />,
+                      "className": "quote-list__item__amount",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "allowNegative": true,
+                        "decimalSeparator": ".",
+                        "displayType": "text",
+                        "fixedDecimalScale": false,
+                        "getInputRef": [Function],
+                        "isAllowed": [Function],
+                        "isNumericString": false,
+                        "onBlur": [Function],
+                        "onChange": [Function],
+                        "onFocus": [Function],
+                        "onKeyDown": [Function],
+                        "onMouseUp": [Function],
+                        "onValueChange": [Function],
+                        "prefix": "£",
+                        "suffix": "",
+                        "thousandSeparator": true,
+                        "type": "text",
+                        "value": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "The above figures are based on a",
+                <span>
+                   
+                  <NumberFormat
+                    allowNegative={true}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={false}
+                    getInputRef={[Function]}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix="£"
+                    suffix=""
+                    thousandSeparator={true}
+                    type="text"
+                    value={undefined}
+                  />
+                   
+                </span>,
+                "mortgage and a fixed rate of 3.79%. This could rise to a variable rate (currently 3.74%) if you forget to switch, but we will keep an eye on it for you. If you kept this mortgage for the full ",
+                undefined,
+                " year term, the overall cost (including interest and fees) would be 3.9% APRC",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "The above figures are based on a",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    <NumberFormat
+                      allowNegative={true}
+                      decimalSeparator="."
+                      displayType="text"
+                      fixedDecimalScale={false}
+                      getInputRef={[Function]}
+                      isAllowed={[Function]}
+                      isNumericString={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseUp={[Function]}
+                      onValueChange={[Function]}
+                      prefix="£"
+                      suffix=""
+                      thousandSeparator={true}
+                      type="text"
+                      value={undefined}
+                    />,
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "allowNegative": true,
+                      "decimalSeparator": ".",
+                      "displayType": "text",
+                      "fixedDecimalScale": false,
+                      "getInputRef": [Function],
+                      "isAllowed": [Function],
+                      "isNumericString": false,
+                      "onBlur": [Function],
+                      "onChange": [Function],
+                      "onFocus": [Function],
+                      "onKeyDown": [Function],
+                      "onMouseUp": [Function],
+                      "onValueChange": [Function],
+                      "prefix": "£",
+                      "suffix": "",
+                      "thousandSeparator": true,
+                      "type": "text",
+                      "value": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  " ",
+                ],
+                "type": "span",
+              },
+              "mortgage and a fixed rate of 3.79%. This could rise to a variable rate (currently 3.74%) if you forget to switch, but we will keep an eye on it for you. If you kept this mortgage for the full ",
+              undefined,
+              " year term, the overall cost (including interest and fees) would be 3.9% APRC",
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Remember as well as your deposit and stamp duty, you'll need about £1,671 to cover the additional cost of buying a home.",
+            },
+            "ref": null,
+            "rendered": "Remember as well as your deposit and stamp duty, you'll need about £1,671 to cover the additional cost of buying a home.",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      false,
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          false,
+          false,
+          <div
+            className="quote-main"
+          >
+            <div>
+              <button
+                align="right"
+                className="quote-button-round quote-button-add-remove"
+                to="/comparisons"
+              >
+                <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/comparisons"
+                >
+                  +
+                </NavLink>
+              </button>
+            </div>
+            <div>
+              <button
+                className=" quote-button-round quote-button-favourite"
+                onClick={[Function]}
+              >
+                ♡
+              </button>
+            </div>
+            <div
+              className="quote-top-summary"
+            >
+              <div
+                className="quote-top-summary__text"
+              >
+                We believe you can afford a property worth:
+              </div>
+              <div
+                className="quote-top-summary__logo"
+              />
+              <div
+                className="quote-top-summary__total"
+              >
+                <NumberFormat
+                  allowNegative={true}
+                  decimalSeparator="."
+                  displayType="text"
+                  fixedDecimalScale={false}
+                  getInputRef={[Function]}
+                  isAllowed={[Function]}
+                  isNumericString={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseUp={[Function]}
+                  onValueChange={[Function]}
+                  prefix="£"
+                  suffix=""
+                  thousandSeparator={true}
+                  type="text"
+                  value={undefined}
+                />
+              </div>
+            </div>
+            <div
+              className="quote-list"
+            >
+              <div
+                className="quote-list__item"
+              >
+                <span>
+                  Monthly Payment
+                </span>
+                <span
+                  className="quote-list__item__amount"
+                >
+                  <NumberFormat
+                    allowNegative={true}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={false}
+                    getInputRef={[Function]}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix="£"
+                    suffix=""
+                    thousandSeparator={true}
+                    type="text"
+                    value={undefined}
+                  />
+                </span>
+              </div>
+              <div
+                className="quote-list__item"
+              >
+                <div>
+                  Term in years
+                </div>
+                <div
+                  className="quote-list__item__amount"
+                />
+              </div>
+              <div
+                className="quote-list__item"
+              >
+                <div>
+                  Mortgage Amount
+                </div>
+                <div
+                  className="quote-list__item__amount"
+                >
+                  <NumberFormat
+                    allowNegative={true}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={false}
+                    getInputRef={[Function]}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix="£"
+                    suffix=""
+                    thousandSeparator={true}
+                    type="text"
+                    value={undefined}
+                  />
+                </div>
+              </div>
+              <div
+                className="quote-list__item"
+              >
+                <div>
+                  Contribtion
+                </div>
+                <div
+                  className="quote-list__item__amount"
+                >
+                  <NumberFormat
+                    allowNegative={true}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={false}
+                    getInputRef={[Function]}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix="£"
+                    suffix=""
+                    thousandSeparator={true}
+                    type="text"
+                    value={undefined}
+                  />
+                </div>
+              </div>
+            </div>
+            <p>
+              The above figures are based on a
+              <span>
+                 
+                <NumberFormat
+                  allowNegative={true}
+                  decimalSeparator="."
+                  displayType="text"
+                  fixedDecimalScale={false}
+                  getInputRef={[Function]}
+                  isAllowed={[Function]}
+                  isNumericString={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseUp={[Function]}
+                  onValueChange={[Function]}
+                  prefix="£"
+                  suffix=""
+                  thousandSeparator={true}
+                  type="text"
+                  value={undefined}
+                />
+                 
+              </span>
+              mortgage and a fixed rate of 3.79%. This could rise to a variable rate (currently 3.74%) if you forget to switch, but we will keep an eye on it for you. If you kept this mortgage for the full 
+               year term, the overall cost (including interest and fees) would be 3.9% APRC
+            </p>
+            <p />
+            <p>
+              Remember as well as your deposit and stamp duty, you'll need about £1,671 to cover the additional cost of buying a home.
+            </p>
+          </div>,
+          false,
+          false,
+        ],
+        "className": "quote-body",
+      },
+      "ref": null,
+      "rendered": Array [
+        false,
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div>
+                <button
+                  align="right"
+                  className="quote-button-round quote-button-add-remove"
+                  to="/comparisons"
+                >
+                  <NavLink
+                    activeClassName="is-active"
+                    ariaCurrent="true"
+                    to="/comparisons"
+                  >
+                    +
+                  </NavLink>
+                </button>
+              </div>,
+              <div>
+                <button
+                  className=" quote-button-round quote-button-favourite"
+                  onClick={[Function]}
+                >
+                  ♡
+                </button>
+              </div>,
+              <div
+                className="quote-top-summary"
+              >
+                <div
+                  className="quote-top-summary__text"
+                >
+                  We believe you can afford a property worth:
+                </div>
+                <div
+                  className="quote-top-summary__logo"
+                />
+                <div
+                  className="quote-top-summary__total"
+                >
+                  <NumberFormat
+                    allowNegative={true}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={false}
+                    getInputRef={[Function]}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix="£"
+                    suffix=""
+                    thousandSeparator={true}
+                    type="text"
+                    value={undefined}
+                  />
+                </div>
+              </div>,
+              <div
+                className="quote-list"
+              >
+                <div
+                  className="quote-list__item"
+                >
+                  <span>
+                    Monthly Payment
+                  </span>
+                  <span
+                    className="quote-list__item__amount"
+                  >
+                    <NumberFormat
+                      allowNegative={true}
+                      decimalSeparator="."
+                      displayType="text"
+                      fixedDecimalScale={false}
+                      getInputRef={[Function]}
+                      isAllowed={[Function]}
+                      isNumericString={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseUp={[Function]}
+                      onValueChange={[Function]}
+                      prefix="£"
+                      suffix=""
+                      thousandSeparator={true}
+                      type="text"
+                      value={undefined}
+                    />
+                  </span>
+                </div>
+                <div
+                  className="quote-list__item"
+                >
+                  <div>
+                    Term in years
+                  </div>
+                  <div
+                    className="quote-list__item__amount"
+                  />
+                </div>
+                <div
+                  className="quote-list__item"
+                >
+                  <div>
+                    Mortgage Amount
+                  </div>
+                  <div
+                    className="quote-list__item__amount"
+                  >
+                    <NumberFormat
+                      allowNegative={true}
+                      decimalSeparator="."
+                      displayType="text"
+                      fixedDecimalScale={false}
+                      getInputRef={[Function]}
+                      isAllowed={[Function]}
+                      isNumericString={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseUp={[Function]}
+                      onValueChange={[Function]}
+                      prefix="£"
+                      suffix=""
+                      thousandSeparator={true}
+                      type="text"
+                      value={undefined}
+                    />
+                  </div>
+                </div>
+                <div
+                  className="quote-list__item"
+                >
+                  <div>
+                    Contribtion
+                  </div>
+                  <div
+                    className="quote-list__item__amount"
+                  >
+                    <NumberFormat
+                      allowNegative={true}
+                      decimalSeparator="."
+                      displayType="text"
+                      fixedDecimalScale={false}
+                      getInputRef={[Function]}
+                      isAllowed={[Function]}
+                      isNumericString={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseUp={[Function]}
+                      onValueChange={[Function]}
+                      prefix="£"
+                      suffix=""
+                      thousandSeparator={true}
+                      type="text"
+                      value={undefined}
+                    />
+                  </div>
+                </div>
+              </div>,
+              <p>
+                The above figures are based on a
+                <span>
+                   
+                  <NumberFormat
+                    allowNegative={true}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={false}
+                    getInputRef={[Function]}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix="£"
+                    suffix=""
+                    thousandSeparator={true}
+                    type="text"
+                    value={undefined}
+                  />
+                   
+                </span>
+                mortgage and a fixed rate of 3.79%. This could rise to a variable rate (currently 3.74%) if you forget to switch, but we will keep an eye on it for you. If you kept this mortgage for the full 
+                 year term, the overall cost (including interest and fees) would be 3.9% APRC
+              </p>,
+              <p />,
+              <p>
+                Remember as well as your deposit and stamp duty, you'll need about £1,671 to cover the additional cost of buying a home.
+              </p>,
+            ],
+            "className": "quote-main",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <button
+                  align="right"
+                  className="quote-button-round quote-button-add-remove"
+                  to="/comparisons"
+                >
+                  <NavLink
+                    activeClassName="is-active"
+                    ariaCurrent="true"
+                    to="/comparisons"
+                  >
+                    +
+                  </NavLink>
+                </button>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "align": "right",
+                  "children": <NavLink
+                    activeClassName="is-active"
+                    ariaCurrent="true"
+                    to="/comparisons"
+                  >
+                    +
+                  </NavLink>,
+                  "className": "quote-button-round quote-button-add-remove",
+                  "to": "/comparisons",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "is-active",
+                    "ariaCurrent": "true",
+                    "children": "+",
+                    "to": "/comparisons",
+                  },
+                  "ref": null,
+                  "rendered": "+",
+                  "type": [Function],
+                },
+                "type": "button",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <button
+                  className=" quote-button-round quote-button-favourite"
+                  onClick={[Function]}
+                >
+                  ♡
+                </button>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "♡",
+                  "className": " quote-button-round quote-button-favourite",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "♡",
+                "type": "button",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="quote-top-summary__text"
+                  >
+                    We believe you can afford a property worth:
+                  </div>,
+                  <div
+                    className="quote-top-summary__logo"
+                  />,
+                  <div
+                    className="quote-top-summary__total"
+                  >
+                    <NumberFormat
+                      allowNegative={true}
+                      decimalSeparator="."
+                      displayType="text"
+                      fixedDecimalScale={false}
+                      getInputRef={[Function]}
+                      isAllowed={[Function]}
+                      isNumericString={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseUp={[Function]}
+                      onValueChange={[Function]}
+                      prefix="£"
+                      suffix=""
+                      thousandSeparator={true}
+                      type="text"
+                      value={undefined}
+                    />
+                  </div>,
+                ],
+                "className": "quote-top-summary",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "We believe you can afford a property worth:",
+                    "className": "quote-top-summary__text",
+                  },
+                  "ref": null,
+                  "rendered": "We believe you can afford a property worth:",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      false,
+                      false,
+                    ],
+                    "className": "quote-top-summary__logo",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    false,
+                    false,
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <NumberFormat
+                      allowNegative={true}
+                      decimalSeparator="."
+                      displayType="text"
+                      fixedDecimalScale={false}
+                      getInputRef={[Function]}
+                      isAllowed={[Function]}
+                      isNumericString={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseUp={[Function]}
+                      onValueChange={[Function]}
+                      prefix="£"
+                      suffix=""
+                      thousandSeparator={true}
+                      type="text"
+                      value={undefined}
+                    />,
+                    "className": "quote-top-summary__total",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "allowNegative": true,
+                      "decimalSeparator": ".",
+                      "displayType": "text",
+                      "fixedDecimalScale": false,
+                      "getInputRef": [Function],
+                      "isAllowed": [Function],
+                      "isNumericString": false,
+                      "onBlur": [Function],
+                      "onChange": [Function],
+                      "onFocus": [Function],
+                      "onKeyDown": [Function],
+                      "onMouseUp": [Function],
+                      "onValueChange": [Function],
+                      "prefix": "£",
+                      "suffix": "",
+                      "thousandSeparator": true,
+                      "type": "text",
+                      "value": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="quote-list__item"
+                  >
+                    <span>
+                      Monthly Payment
+                    </span>
+                    <span
+                      className="quote-list__item__amount"
+                    >
+                      <NumberFormat
+                        allowNegative={true}
+                        decimalSeparator="."
+                        displayType="text"
+                        fixedDecimalScale={false}
+                        getInputRef={[Function]}
+                        isAllowed={[Function]}
+                        isNumericString={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onMouseUp={[Function]}
+                        onValueChange={[Function]}
+                        prefix="£"
+                        suffix=""
+                        thousandSeparator={true}
+                        type="text"
+                        value={undefined}
+                      />
+                    </span>
+                  </div>,
+                  <div
+                    className="quote-list__item"
+                  >
+                    <div>
+                      Term in years
+                    </div>
+                    <div
+                      className="quote-list__item__amount"
+                    />
+                  </div>,
+                  <div
+                    className="quote-list__item"
+                  >
+                    <div>
+                      Mortgage Amount
+                    </div>
+                    <div
+                      className="quote-list__item__amount"
+                    >
+                      <NumberFormat
+                        allowNegative={true}
+                        decimalSeparator="."
+                        displayType="text"
+                        fixedDecimalScale={false}
+                        getInputRef={[Function]}
+                        isAllowed={[Function]}
+                        isNumericString={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onMouseUp={[Function]}
+                        onValueChange={[Function]}
+                        prefix="£"
+                        suffix=""
+                        thousandSeparator={true}
+                        type="text"
+                        value={undefined}
+                      />
+                    </div>
+                  </div>,
+                  <div
+                    className="quote-list__item"
+                  >
+                    <div>
+                      Contribtion
+                    </div>
+                    <div
+                      className="quote-list__item__amount"
+                    >
+                      <NumberFormat
+                        allowNegative={true}
+                        decimalSeparator="."
+                        displayType="text"
+                        fixedDecimalScale={false}
+                        getInputRef={[Function]}
+                        isAllowed={[Function]}
+                        isNumericString={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onMouseUp={[Function]}
+                        onValueChange={[Function]}
+                        prefix="£"
+                        suffix=""
+                        thousandSeparator={true}
+                        type="text"
+                        value={undefined}
+                      />
+                    </div>
+                  </div>,
+                ],
+                "className": "quote-list",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span>
+                        Monthly Payment
+                      </span>,
+                      <span
+                        className="quote-list__item__amount"
+                      >
+                        <NumberFormat
+                          allowNegative={true}
+                          decimalSeparator="."
+                          displayType="text"
+                          fixedDecimalScale={false}
+                          getInputRef={[Function]}
+                          isAllowed={[Function]}
+                          isNumericString={false}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onMouseUp={[Function]}
+                          onValueChange={[Function]}
+                          prefix="£"
+                          suffix=""
+                          thousandSeparator={true}
+                          type="text"
+                          value={undefined}
+                        />
+                      </span>,
+                    ],
+                    "className": "quote-list__item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Monthly Payment",
+                      },
+                      "ref": null,
+                      "rendered": "Monthly Payment",
+                      "type": "span",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <NumberFormat
+                          allowNegative={true}
+                          decimalSeparator="."
+                          displayType="text"
+                          fixedDecimalScale={false}
+                          getInputRef={[Function]}
+                          isAllowed={[Function]}
+                          isNumericString={false}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onMouseUp={[Function]}
+                          onValueChange={[Function]}
+                          prefix="£"
+                          suffix=""
+                          thousandSeparator={true}
+                          type="text"
+                          value={undefined}
+                        />,
+                        "className": "quote-list__item__amount",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "allowNegative": true,
+                          "decimalSeparator": ".",
+                          "displayType": "text",
+                          "fixedDecimalScale": false,
+                          "getInputRef": [Function],
+                          "isAllowed": [Function],
+                          "isNumericString": false,
+                          "onBlur": [Function],
+                          "onChange": [Function],
+                          "onFocus": [Function],
+                          "onKeyDown": [Function],
+                          "onMouseUp": [Function],
+                          "onValueChange": [Function],
+                          "prefix": "£",
+                          "suffix": "",
+                          "thousandSeparator": true,
+                          "type": "text",
+                          "value": undefined,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "span",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div>
+                        Term in years
+                      </div>,
+                      <div
+                        className="quote-list__item__amount"
+                      />,
+                    ],
+                    "className": "quote-list__item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Term in years",
+                      },
+                      "ref": null,
+                      "rendered": "Term in years",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": "quote-list__item__amount",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div>
+                        Mortgage Amount
+                      </div>,
+                      <div
+                        className="quote-list__item__amount"
+                      >
+                        <NumberFormat
+                          allowNegative={true}
+                          decimalSeparator="."
+                          displayType="text"
+                          fixedDecimalScale={false}
+                          getInputRef={[Function]}
+                          isAllowed={[Function]}
+                          isNumericString={false}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onMouseUp={[Function]}
+                          onValueChange={[Function]}
+                          prefix="£"
+                          suffix=""
+                          thousandSeparator={true}
+                          type="text"
+                          value={undefined}
+                        />
+                      </div>,
+                    ],
+                    "className": "quote-list__item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Mortgage Amount",
+                      },
+                      "ref": null,
+                      "rendered": "Mortgage Amount",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <NumberFormat
+                          allowNegative={true}
+                          decimalSeparator="."
+                          displayType="text"
+                          fixedDecimalScale={false}
+                          getInputRef={[Function]}
+                          isAllowed={[Function]}
+                          isNumericString={false}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onMouseUp={[Function]}
+                          onValueChange={[Function]}
+                          prefix="£"
+                          suffix=""
+                          thousandSeparator={true}
+                          type="text"
+                          value={undefined}
+                        />,
+                        "className": "quote-list__item__amount",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "allowNegative": true,
+                          "decimalSeparator": ".",
+                          "displayType": "text",
+                          "fixedDecimalScale": false,
+                          "getInputRef": [Function],
+                          "isAllowed": [Function],
+                          "isNumericString": false,
+                          "onBlur": [Function],
+                          "onChange": [Function],
+                          "onFocus": [Function],
+                          "onKeyDown": [Function],
+                          "onMouseUp": [Function],
+                          "onValueChange": [Function],
+                          "prefix": "£",
+                          "suffix": "",
+                          "thousandSeparator": true,
+                          "type": "text",
+                          "value": undefined,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div>
+                        Contribtion
+                      </div>,
+                      <div
+                        className="quote-list__item__amount"
+                      >
+                        <NumberFormat
+                          allowNegative={true}
+                          decimalSeparator="."
+                          displayType="text"
+                          fixedDecimalScale={false}
+                          getInputRef={[Function]}
+                          isAllowed={[Function]}
+                          isNumericString={false}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onMouseUp={[Function]}
+                          onValueChange={[Function]}
+                          prefix="£"
+                          suffix=""
+                          thousandSeparator={true}
+                          type="text"
+                          value={undefined}
+                        />
+                      </div>,
+                    ],
+                    "className": "quote-list__item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Contribtion",
+                      },
+                      "ref": null,
+                      "rendered": "Contribtion",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <NumberFormat
+                          allowNegative={true}
+                          decimalSeparator="."
+                          displayType="text"
+                          fixedDecimalScale={false}
+                          getInputRef={[Function]}
+                          isAllowed={[Function]}
+                          isNumericString={false}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onMouseUp={[Function]}
+                          onValueChange={[Function]}
+                          prefix="£"
+                          suffix=""
+                          thousandSeparator={true}
+                          type="text"
+                          value={undefined}
+                        />,
+                        "className": "quote-list__item__amount",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "allowNegative": true,
+                          "decimalSeparator": ".",
+                          "displayType": "text",
+                          "fixedDecimalScale": false,
+                          "getInputRef": [Function],
+                          "isAllowed": [Function],
+                          "isNumericString": false,
+                          "onBlur": [Function],
+                          "onChange": [Function],
+                          "onFocus": [Function],
+                          "onKeyDown": [Function],
+                          "onMouseUp": [Function],
+                          "onValueChange": [Function],
+                          "prefix": "£",
+                          "suffix": "",
+                          "thousandSeparator": true,
+                          "type": "text",
+                          "value": undefined,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "The above figures are based on a",
+                  <span>
+                     
+                    <NumberFormat
+                      allowNegative={true}
+                      decimalSeparator="."
+                      displayType="text"
+                      fixedDecimalScale={false}
+                      getInputRef={[Function]}
+                      isAllowed={[Function]}
+                      isNumericString={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseUp={[Function]}
+                      onValueChange={[Function]}
+                      prefix="£"
+                      suffix=""
+                      thousandSeparator={true}
+                      type="text"
+                      value={undefined}
+                    />
+                     
+                  </span>,
+                  "mortgage and a fixed rate of 3.79%. This could rise to a variable rate (currently 3.74%) if you forget to switch, but we will keep an eye on it for you. If you kept this mortgage for the full ",
+                  undefined,
+                  " year term, the overall cost (including interest and fees) would be 3.9% APRC",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "The above figures are based on a",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      <NumberFormat
+                        allowNegative={true}
+                        decimalSeparator="."
+                        displayType="text"
+                        fixedDecimalScale={false}
+                        getInputRef={[Function]}
+                        isAllowed={[Function]}
+                        isNumericString={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onMouseUp={[Function]}
+                        onValueChange={[Function]}
+                        prefix="£"
+                        suffix=""
+                        thousandSeparator={true}
+                        type="text"
+                        value={undefined}
+                      />,
+                      " ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "allowNegative": true,
+                        "decimalSeparator": ".",
+                        "displayType": "text",
+                        "fixedDecimalScale": false,
+                        "getInputRef": [Function],
+                        "isAllowed": [Function],
+                        "isNumericString": false,
+                        "onBlur": [Function],
+                        "onChange": [Function],
+                        "onFocus": [Function],
+                        "onKeyDown": [Function],
+                        "onMouseUp": [Function],
+                        "onValueChange": [Function],
+                        "prefix": "£",
+                        "suffix": "",
+                        "thousandSeparator": true,
+                        "type": "text",
+                        "value": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    " ",
+                  ],
+                  "type": "span",
+                },
+                "mortgage and a fixed rate of 3.79%. This could rise to a variable rate (currently 3.74%) if you forget to switch, but we will keep an eye on it for you. If you kept this mortgage for the full ",
+                undefined,
+                " year term, the overall cost (including interest and fees) would be 3.9% APRC",
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Remember as well as your deposit and stamp duty, you'll need about £1,671 to cover the additional cost of buying a home.",
+              },
+              "ref": null,
+              "rendered": "Remember as well as your deposit and stamp duty, you'll need about £1,671 to cover the additional cost of buying a home.",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        false,
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
